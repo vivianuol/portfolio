@@ -449,7 +449,7 @@ h1, h2, h3, h4, h5, h6 {
 
 [data-overlay-dark="6"]:before,
 [data-overlay-light="6"]:before {
-  opacity: 0.6;
+  opacity: 0.2;
 }
 
 [data-overlay-dark="7"]:before,

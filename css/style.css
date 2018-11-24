@@ -577,6 +577,8 @@ body.theme-dark .contact .info span {
   min-height: 105vh;
   overflow: hidden;
   position: relative;
+  background: url("../img/austinbridge360-nest.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 .header .caption .o-hidden {
   display: inline-block;
