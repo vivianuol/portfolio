@@ -1,9 +1,9 @@
-# portfolio
+# PENG's portfolio
 
+### Techs in use:
 
-Tools in use:
-AI - Favicon, logo, background image
-Bootstrap, javascript -framework and body.
+* Illustrator for Favicon, logo, background-image
+* Bootstrap
+* Javascript（jQuey）
 
-Website can be found [here](https://vivianuol.github.io/portfolio/)
 
