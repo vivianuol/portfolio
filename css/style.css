@@ -478,6 +478,20 @@ body.theme-dark .contact .info span {
   color: #fff;
 }
 
+.app {
+  margin: 0.5rem 1rem;
+  padding: 0.5rem;
+  border: #1c1c1c 2px;
+  background: papayawhip;
+}
+
+.Github {
+  margin: 0.5rem 1rem;
+  padding: 0.5rem;
+  border: #1c1c1c 2px;
+  background: peru;
+}
+
 /* ----------------------------------------------------------------
      [ End Buttons ]
 -----------------------------------------------------------------*/
