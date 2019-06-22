@@ -20,6 +20,9 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800" rel="stylesheet">
 
+    <!-- Google reCaptcha-->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
     <!-- Plugins -->
     <link rel="stylesheet" href="css/plugins.css" />
 
@@ -455,7 +458,7 @@
 
                 <!-- Contact Form -->
                 <div class="col-md-12">
-                    <form class="form" id="contact-form" method="post" action="contact.php">
+                    <form class="form" id="contact-form" method="post" action="https://1hsayi2c5b.execute-api.us-west-2.amazonaws.com/Prod">
 
                         <div class="messages"></div>
 
@@ -491,7 +494,9 @@
                                 </div>
 
                                 <div class="col-md-12">
-                                    <button type="submit" class="butn butn-bg"><span>Send Message</span></button>
+                                    <button type="submit" class="butn butn-bg g-recaptcha"
+                                    data-sitekey="6LfNMaoUAAAAAGtKJOyArZUMLta0wOVjqv8cqBeT"
+                                    data-callback="onContctUsSubmit" data-badge="inline"><span>Send Message</span></button>
                                     <div class="info">
                                         <span><strong>Email</strong> : vivian_sipeng@hotmail.com</span>
                                         <span><strong>Phone</strong> : +1 512 228 76xx</span>
