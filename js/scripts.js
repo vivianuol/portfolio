@@ -186,3 +186,18 @@ $(window).on("load",function (){
     });
 
 });
+
+function onContactUsSubmit(token) {
+    $.post($("#contact-form").attr('action'), JSON.stringify({
+        name: $("#contact-form input[name='name']").val(),
+        email: $("#contact-form input[name='email']").val(),
+        subject: $("#contact-form input[name='subject']").val(),
+        message: $("#contact-form textarea[name='message']").val(),
+        'g-recaptcha-response': token
+    }), function (data) {
+        //$(".thanks").show();
+        //$("#contact-us-form button").hide();
+        console.log("success!")
+    }, 'json');
+  }
+
