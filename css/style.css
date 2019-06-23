@@ -423,6 +423,8 @@ body.theme-dark .contact .info span {
 .butn {
   padding: 10px 30px;
   border: 1px solid #eee;
+  color:whitesmoke;
+  background: black;
   border-radius: 4px;
   text-transform: uppercase;
   font-size: 13px;
@@ -430,53 +432,39 @@ body.theme-dark .contact .info span {
   letter-spacing: 1px;
   position: relative;
   margin: 30px 2px 0;
-  -webkit-animation-delay: 1.2s;
-          animation-delay: 1.2s;
+
 }
-.butn:after {
+
+ .butn:after {
   content: '';
   width: 0;
   height: 100%;
   position: absolute;
   bottom: 0;
   left: 100%;
+  color: black;
   z-index: 1;
   background: #fff;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+
 }
 .butn:hover {
   border-color: #fff;
+  color: silver;
 }
 .butn:hover:after {
   width: 100%;
   left: 0;
-  -webkit-transition: width 0.3s ease;
-  transition: width 0.3s ease;
+ 
 }
 .butn:hover span {
   color: #1c1c1c;
 }
+
 .butn span {
   position: relative;
   z-index: 2;
 }
 
-.butn-bg {
-  background: #1c1c1c;
-  border-color: #1c1c1c;
-  color: #fff;
-}
-
-.butn-bord:after {
-  background: #1c1c1c;
-}
-.butn-bord:hover {
-  border-color: #1c1c1c;
-}
-.butn-bord:hover span {
-  color: #fff;
-}
 
 .app {
   margin: 0.5rem 1rem;
