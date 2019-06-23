@@ -11,7 +11,7 @@
 
 ### Screenshots of my portfolio:
 
-<img width="1256" alt="portfolioofpeng1" src="https://user-images.githubusercontent.com/43115893/51931087-a24b1280-23c1-11e9-97da-5c98b4961dc5.png">
+![Home](/img/readme/home.png)
 
 <img width="1238" alt="portfolioofpeng2" src="https://user-images.githubusercontent.com/43115893/51931341-27cec280-23c2-11e9-994d-42cfbbd2554e.png">
 
