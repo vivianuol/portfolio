@@ -899,6 +899,14 @@ body.theme-dark .contact .info span {
   right: 10px;
 }
 
+.info p {
+  display: none;
+}
+
+#thanks {
+  color: crimson;
+}
+
 /* ----------------------------------------------------------------
      [ End Contact ]
 -----------------------------------------------------------------*/
