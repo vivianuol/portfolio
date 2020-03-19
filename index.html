@@ -96,31 +96,33 @@
 
     <!-- =====================================
     	==== Start Header -->
+    <header class="header valign" data-scroll-index="0" data-overlay-dark="3" data-stellar-background-ratio="1" style="background-position: 0px 0px;">
 
-    <header class="header valign" data-scroll-index="0" data-overlay-dark="6" data-stellar-background-ratio="0.5" style="background-position: 0px 0px;">
+        <div class="container text-center title-group">
+            <div class="row"></div>
+            <div id="particles-js"></div>
+            <div class="caption title">
+                <!-- <h1> here use to be a animation clip effect, but as we have particle effect on the header, we don't need it any more.  -->
+                <h1 class="cd-headline welcome-text">
+                    <span>I Am Peng Si, A Web Developer!</span>
+                    <span class="cd-words-wrapper">
+                        <!-- <b class="is-visible">Peng Si</b> -->
+                        <!-- <b>Web Developer</b> -->
+                    </span>
+                </h1>
+            </div>
+        </div>
+  
 
         <div class="svg">
             <svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
                 <polygon points="-30,300 355.167,210.5 1432.5,290 1920,198.5 1920,300"></polygon>
             </svg>
         </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="full-width text-center caption mt-30">
-                    <h1 class="cd-headline clip">
-                        <span>I Am </span>
-                        <span class="cd-words-wrapper">
-                            <b class="is-visible">Peng Si</b>
-                            <b>UI / UX Designer</b>
-                            <b>Web Developer</b>
-                        </span>
-                    </h1>
-                </div>
-            </div>
         </div>
 
-        <div class="arrow bounce" data-scroll-nav="1">
+        <!-- this div use to have bounce animated effect. Hence, class="arrow bounce" -->
+        <div class="arrow" data-scroll-nav="1">
             <img src="img/down-chevron.svg" alt="">
         </div>
 
@@ -138,14 +140,14 @@
 
                 <div class="col-lg-5">
                     <div class="author-img">
-                        <img src="img/my-profile-image-2.jpg" alt="author img">
+                        <img src="img/my-profile-image-3.jpg" alt="author img">
                     </div>
                 </div>
 
                 <div class="col-lg-7">
                     <div class="content">
                         <h4>I'm Peng Si</h4>
-                        <span>UI / UX Designer & Front-end Developer</span>
+                        <span>Front-end/Full stack Developer</span>
                         <p>Penchant web developer who successfully graduated from UT-Austin coding boot camp. I'm
                             skilled
                             in front-end development tools like HTML, CSS and Javascript, good at the most commonly
@@ -167,6 +169,7 @@
             <span class="left"></span>
             <span class="right"></span>
         </div>
+        
     </section>
 
     <!-- End Hero ====
@@ -484,11 +487,11 @@
                                 </div>
 
                                 <div class="col-md-12">
-                                    <button type="submit" class="butn g-recaptcha"
-                                    data-sitekey="6LffMqoUAAAAAPA4IHY9D3iQ5r4Q6B9qRBPG-r2Y"
-                                    data-callback="onContactUsSubmit"><span>Send Message</span></button>
+                                    <button type="submit" class="butn g-recaptcha" data-sitekey="6LffMqoUAAAAAPA4IHY9D3iQ5r4Q6B9qRBPG-r2Y"
+                                        data-callback="onContactUsSubmit"><span>Send Message</span></button>
                                     <div class="info">
-                                        <p id="thanks">Thank you for submiting your message, your information will be sent to Peng's email box.</p>
+                                        <p id="thanks">Thank you for submiting your message, your information will be
+                                            sent to Peng's email box.</p>
                                         <span><strong>You can also send me email derictly to</strong></span>
                                         <span><strong>Email</strong> : sipeng_vivian@hotmail.com</span>
                                     </div>
@@ -532,7 +535,13 @@
         ======================================= -->
 
 
-
+    <!-- particles.js -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function () {
+            console.log('particles.js config loaded');
+        });
+    </script>
 
 
     <!-- jQuery -->

@@ -575,11 +575,29 @@ body.theme-dark .contact .info span {
 /* ----------------------------------------------------------------
      [ 05 Start Header ]
 -----------------------------------------------------------------*/
+#particles-js {
+  z-index: -1;
+} 
+
+.title {
+  position: absolute !important;
+  margin: 0 auto !important;
+  height: 100%!important;
+  top: 0!important;
+  bottom: 100%;
+  transform: translate(0, 30%);
+}
+
+.welcome-text {
+  padding: 10px 20px;
+  background: rgba(102, 102, 102, 0.445);
+}
+
 .header {
   min-height: 105vh;
   overflow: hidden;
   position: relative;
-  background: url("../img/austinbridge360-nest.svg") no-repeat center center fixed;
+  background-color:  #162747;
   background-size: cover;
 }
 .header .caption .o-hidden {
